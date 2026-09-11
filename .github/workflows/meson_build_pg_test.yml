@@ -41,7 +41,7 @@ jobs:
             -Dcassert=true \
             -Dbuildtype=debug \
             -Dlz4=enabled -Dzstd=enabled -Dllvm=enabled \
-            -Dliburing=enabled -Dcurl=enabled \
+            -Dliburing=enabled -Dlibcurl=enabled \
             -Dsystemd=enabled -Dselinux=enabled
     - name: compile
       run: |
